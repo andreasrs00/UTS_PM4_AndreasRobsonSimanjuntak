@@ -6,4 +6,4 @@ Informasi yang ditawarkan berupa :
 3. Deskripsi Tempat
 4. Biaya Perjalanan
 
-Figna : https://www.figma.com/design/iOJ7MEmHZctxkZeXtr700z/Untitled?node-id=0-1&t=yN6VqGsebyucuGos-1
+Figma : https://www.figma.com/design/iOJ7MEmHZctxkZeXtr700z/Untitled?node-id=0-1&t=yN6VqGsebyucuGos-1
