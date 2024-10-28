@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- ImageView for destination image -->
+        <ImageView
+            android:id="@+id/destination_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"/>
+
+        <!-- Overlay TextView for destination name -->
+        <TextView
+            android:id="@+id/destination_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kelimutu"
+            android:textColor="@android:color/white"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:background="@drawable/border"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="8dp"/>
+
+        <!-- TextView for destination location -->
+        <TextView
+            android:id="@+id/destination_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nusa Tenggara Timur"
+            android:textColor="@android:color/white"
+            android:padding="4dp"
+            android:layout_below="@+id/destination_name"
+            android:layout_margin="8dp"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
